@@ -54,6 +54,20 @@ source .venv/bin/activate
 pip install ultralytics opencv-python pyyaml
 ```
 
+## Dataset
+
+The full training, validation, and test datasets are excluded from this repository to keep size manageable. However:
+
+- Sample images and labels are provided in `examples/sample_images/` and `examples/sample_labels/` to show the expected YOLO label format.
+- To train your own model or use the scripts, organize your dataset as:
+  ```
+  train/images/  train/labels/
+  valid/images/  valid/labels/
+  test/images/   test/labels/
+  ```
+- Each image must have a corresponding `.txt` file in the labels folder with one line per object: `class_id x_center y_center width height` (normalized coordinates).
+- Update `data.yaml` to match your dataset paths and class names.
+
 ## Notes
 
 - Labels use YOLO text format: `class_id x_center y_center width height` (normalized coordinates).
