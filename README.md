@@ -1,3 +1,5 @@
+<img width="1400" height="1004" alt="Robot-car 0 58 goalpost 0 40" src="https://github.com/user-attachments/assets/f915e25a-6417-41a6-bc12-cafcdcafe103" />
+
 # YOLO Object Detection — Minimal Toolkit
 
 This repository provides a small, practical set of utilities for creating and editing YOLO-format labels and for running a trained YOLOv8 model in real time.
