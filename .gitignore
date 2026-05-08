@@ -1,0 +1,43 @@
+# Large pre-trained model files
+
+# Full datasets (excluded for repo size; samples documented in README)
+test/images/
+test/labels/
+train/images/
+train/labels/
+valid/images/
+valid/labels/
+train_manual/
+
+# Raw data sources
+_backup_before_cropped_replace/
+Douglas9149GoalPictures/
+Goalpost-Robot-imgs/
+
+# Training outputs and runs
+runs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

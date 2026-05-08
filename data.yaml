@@ -1,0 +1,7 @@
+path: /Users/sergioramirez/combined_dataset
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 4
+names: ['Robot-car', 'ball', 'goalpost', 'wheels']
