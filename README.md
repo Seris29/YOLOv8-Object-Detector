@@ -84,8 +84,6 @@ The full training, validation, and test datasets are excluded from this reposito
 	- `yolov8n.pt` — YOLOv8-nano (smallest, fastest, lower accuracy). This was used as the base for the `runs/detect/train` run (`runs/detect/train/args.yaml` shows `model: yolov8n.pt`).
 	- `yolov8s.pt` — YOLOv8-small (larger, higher accuracy).
 
-If you publish this repo, don't commit `.pt` files. Use the checkpoints under `runs/` for your own experiments and add `.pt` to `.gitignore` (already configured).
-
 ## Author
 
 Sergio Ramirez
